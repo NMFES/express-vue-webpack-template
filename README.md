@@ -1,4 +1,4 @@
-# Simple app template based on ExpressJS / VueJS / Webpack
+# Simple template based on ExpressJS / VueJS / Webpack
 
 ## Features
 * Express 4
