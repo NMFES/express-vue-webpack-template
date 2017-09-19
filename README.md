@@ -1,6 +1,10 @@
 # Simple template based on ExpressJS / VueJS / Webpack
 
-## Features
+This template consists of two other separate templates:
+* [Webpack-simple](https://github.com/vuejs-templates/webpack-simple)
+* Template that generates "[express-generator](http://expressjs.com/en/starter/generator.html)" with ejs
+
+## What's included?
 * Express 4
 * Vue JS 2
 * SocketIO
