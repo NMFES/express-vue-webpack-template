@@ -1,10 +1,10 @@
-# Simple chat based on NodeJS (Express) / Vue 2 / SocketIO
+# Simple app template based on ExpressJS / VueJS / Webpack
 
 ## Features
-* NodeJS 8 + Express 4
+* Express 4
 * Vue JS 2
 * SocketIO
-* MondoDB 3 + Mongoose
+* MondoDB driver + Mongoose
 * Webpack 3
 * Bootstrap 4 (beta)
 * FontAwesome
@@ -14,8 +14,8 @@
 ## Installation
 
 For installing you should run next commands:
-* `git clone https://github.com/NMFES/chat.git`
-* `cd chat`
+* `git clone https://github.com/NMFES/express-vue-webpack-template.git`
+* `cd express-vue-webpack-template`
 * `npm install`
 * `sudo npm install nodemon -g`
 
@@ -45,7 +45,3 @@ npm run express-dev
 #prod-mode
 npm run express-prod
 ```
-
-<img src="https://raw.githubusercontent.com/NMFES/chat/master/express/public/img/1.png" height="500">
-<img src="https://raw.githubusercontent.com/NMFES/chat/master/express/public/img/2.png" height="500">
-<img src="https://raw.githubusercontent.com/NMFES/chat/master/express/public/img/3.png" height="500">
