@@ -1,0 +1,50 @@
+{
+  "name": "express-vue-webpack-template",
+  "version": "1.0.0",
+  "description": "Express + Vue + Webpack",
+  "keywords": [
+    "webpack",
+    "vue",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "webpack-dev": "cross-env NODE_ENV=development webpack-dev-server --config=./webpack/configs/webpack.config.js --content-base=./webpack --open --hot",
+    "webpack-prod": "cross-env NODE_ENV=production webpack --config=./webpack/configs/webpack.config.js --progress --hide-modules",
+    "express-dev": "nodemon ./express/init.js --watch ./express",
+    "express-prod": "node ./express/init.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "body-parser": "^1.18.1",
+    "bootstrap": "^4.0.0-beta",
+    "cookie-parser": "^1.4.3",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "debug": "^3.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "file-loader": "^0.11.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "node-sass": "^4.5.3",
+    "popper.js": "^1.12.5",
+    "sass-loader": "^6.0.6",
+    "serve-favicon": "^2.4.4",
+    "socket.io": "^2.0.3",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "vue": "^2.4.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
